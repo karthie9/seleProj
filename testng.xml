@@ -1,0 +1,13 @@
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SampleTest" >
+  <listeners> <listener class-name = "com.practice.SeleniumTest.listnersample"> <\listeners> 
+  <test name="SampleTest1" >
+  
+    <classes>
+                  
+       <class name="PageObjectClass$.conftest.class"/>
+              
+    </classes>
+
+ </test>
+</suite>
